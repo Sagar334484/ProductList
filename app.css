@@ -1,0 +1,20 @@
+img.t221 {
+    height: 90px;
+}
+
+main .t216 {
+    padding: 10px 0px 10px 0px;
+
+}
+
+.logo_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .company_name {
+        display: none;
+    }
+}
