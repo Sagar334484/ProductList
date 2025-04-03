@@ -1,0 +1,480 @@
+main {
+    --Dark-Green: rgb(31, 61, 72);
+    --Green: rgb(79, 156, 107);
+    --Yellow: rgba(239, 211, 114, 1);
+    --Background: rgba(249, 248, 248, 1);
+    --Lime: rgb(232, 234, 232);
+    --Text: rgba(27, 31, 32, 0.788);
+}
+main h2 {
+    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+@media screen and (max-width: 767px) {
+    main h2 {
+        font-size: 40px;
+    }
+}
+main container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+main .stylesheet-color-box {
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    margin: 0px 0px 10px 0px;
+}
+main h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 0px 0px 0px;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+@media screen and (max-width: 991px) {
+    main h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    main h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    main h1 {
+        font-size: 32px;
+    }
+}
+main h3 {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    font-weight: 800;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+@media screen and (max-width: 767px) {
+    main h3 {
+        font-size: 37px;
+    }
+}
+main button {
+    cursor: pointer;
+}
+main h4 {
+    font-size: 35px;
+    margin: 0px 0px 0px 0px;
+    font-weight: 800;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+main h5 {
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+@media screen and (max-width: 767px) {
+    main h5 {
+        font-size: 26px;
+    }
+}
+main a {
+    transition: all 200ms 0ms linear;
+    cursor: pointer;
+    color: #1b1f20c9;
+}
+main .button-secondary {
+    background: rgba(255, 255, 255, 1);
+    color: var(--Dark-Green);
+    padding: 15px 35px 15px 35px;
+    border: 1px solid var(--Dark-Green);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    font-family: Roboto;
+}
+main .button-secondary:hover {
+    background: var(--Dark-Green);
+    color: rgba(255, 255, 255, 1);
+}
+main h6 {
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    font-weight: 800;
+    color: var(--Dark-Green);
+    line-height: 1.2;
+    font-family: Roboto;
+}
+.big 
+{   font-size: 70px;
+    width: 100%;
+    margin: 0px 0px 50px 0px;
+    max-width: 590px;
+}
+main {
+    background: rgba(255, 255, 255, 1);
+    color: var(--Text);
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+main p {
+    margin: 0px 0px 0px 0px;
+}
+main .stylesheet-part {
+    border-bottom: 1px solid rgba(223, 223, 223, 1);
+    padding: 60px 0px 60px 0px;
+}
+@media screen and (max-width: 991px) {
+    main .stylesheet-part {
+        padding: 40px 0px 40px 0px;
+    }
+}
+main ul {
+    padding: 0px 20px 0px 20px;
+}
+main ol {
+    padding: 0px 20px 0px 20px;
+}
+main img {
+    max-width: 100%;
+    display: block;
+}
+main textarea {
+    resize: vertical;
+}
+main .button-primary {
+    background: var(--Dark-Green);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 35px 15px 35px;
+    border: 1px solid var(--Dark-Green);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto;
+}
+main .button-primary:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+main .button-tertiary {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px 15px 35px;
+    border-radius: 15px;
+    background: var(--Yellow);
+    color: var(--Dark-Green);
+    border: 1px solid var(--Yellow);
+    font-family: Roboto;
+}
+main .button-tertiar {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 12px 5px 12px;
+    border-radius: 14px;
+    background: var(--Yellow);
+    color: var(--Dark-Green);
+    border: 0px solid var(--Yellow);
+    font-family: Roboto;
+}
+main .button-tertiary:hover {
+    background: rgba(255, 255, 255, 1);
+}
+main .navigation {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+main .label-text {
+    font-size: 36px;
+}
+@media screen and (max-width: 767px) {
+    main .label-text {
+        font-size: 30px;
+    }
+}
+main .icon:hover {
+    transform: scale(1.15, 1.15);
+}
+main .icon {
+    transition: transform 200ms 0ms ease;
+}
+@media screen and (max-width: 991px) {
+    main .t8 {
+        color: rgba(163, 117, 255, 1);
+    }
+}
+
+main .t108 {
+    padding: 50px 0px 100px 0px;
+    background: var(--Dark-Green);
+}
+@media screen and (max-width: 991px) {
+    main .t108 {
+        padding: 70px 0px 70px 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    main .t108 {
+        padding: 45px 0px 45px 0px;
+    }
+}
+main .t110 {
+    margin: 0px 0px 50px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+    main .t110 {
+        row-gap: 25px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main .t115 {
+        display: block;
+    }
+}
+main .t116 {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 991px) {
+    main .t116 {
+        row-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 480px) {
+    main .t116 {
+        grid-template-columns: 1fr;
+    }
+}
+main .t117 {
+    padding: 30px 0px 30px 0px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+}
+main .t118 {
+    color: rgba(255, 255, 255, 1);
+    width: 120px;
+    height: 35px;
+    margin: 0px 0px 20px 20px;
+    display: flex;
+    background: var(--Dark-Green);
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+}
+main .t119 {
+    height: 310px;
+    margin: 0px 0px 20px 0px;
+    object-fit: cover;
+}
+main .t120 {
+    color: var(--Dark-Green);
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}
+main .t121 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .t122 {
+    display: flex;
+    justify-content: space-between;
+}
+main .t124 {
+    color: rgba(184, 184, 184, 1);
+    margin: 0px 10px 0px 0px;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+main .t125 {
+    font-weight: 700;
+}
+main .t126 {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+main .t127 {
+    width: 20px;
+    height: 20px;
+}
+
+main .t216 {
+    padding: 35px 0px 35px 0px;
+    background: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 991px) {
+    main .t216 {
+        padding: 30px 0px 30px 0px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 767px) {
+    main .t216 {
+        padding: 24px 0px 24px 0px;
+    }
+}
+main .t218 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main .t220 {
+    display: flex;
+    font-size: 20px;
+    column-gap: 30px;
+    font-weight: 700;
+}
+@media screen and (max-width: 991px) {
+    main .t220 {
+        top: 100%;
+        left: 0px;
+        right: 0px;
+        display: none;
+        padding: 20px 20px 20px 20px;
+        row-gap: 20px;
+        position: absolute;
+        background: var(--Background);
+        border-bottom: 1px solid var(--Dark-Green);
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 767px) {
+    main .t221 {
+        max-width: 70%;
+    }
+}
+main .t222 {
+    color: var(--Dark-Green);
+    padding: 3px 0px 3px 0px;
+    border-bottom: 1px solid rgba(39, 76, 91, 0);
+    text-decoration: none;
+}
+main .t222:hover {
+    border-bottom: 1px solid var(--Dark-Green);
+}
+main .t223 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 991px) {
+    main .t223 {
+        cursor: pointer;
+        display: flex;
+        row-gap: 6px;
+        transition: 0.2s;
+        flex-direction: column;
+    }
+    main .t223 > div {
+        top: 0;
+        position: relative;
+        transition: 0.2s;
+    }
+    main .t223.dh-active > div:last-child {
+        top: -8px;
+        position: relative;
+        transform: rotate(-45deg);
+    }
+    main .t223.dh-active > div:first-child {
+        top: 8px;
+        position: relative;
+        transform: rotate(45deg);
+    }
+    main .t223.dh-active > div:nth-child(2) {
+        opacity: 0;
+    }
+}
+
+main .t231 {
+    padding: 30px 0px 30px 0px;
+    background: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 991px) {
+    main .t231 {
+        padding: 70px 0px 70px 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    main .t231 {
+        padding: 45px 0px 45px 0px;
+    }
+}
+
+main .t235 {
+    margin: 0px 0px 10px 0px;
+}
+main .t237 {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+main .t239 {
+    margin: 0px 40px 0px 40px;
+}
+@media screen and (max-width: 991px) {
+    main .t239 {
+        margin: 0px 20px 0px 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    main .t239 {
+        order: -1000;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+main .t264 {
+    width: 100%;
+    height: 1px;
+    margin: 13px 0px 13px 0px;
+    background: rgba(222, 221, 221, 1);
+}
+main .t265 {
+    margin: 0px 20px 0px 20px;
+}
+main .t266 {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+    main .t266 {
+        column-gap: 45px;
+        text-align: right;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 480px) {
+    main .t266 {
+        text-align: center;
+        flex-direction: column;
+    }
+}
