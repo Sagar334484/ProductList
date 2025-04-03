@@ -52,7 +52,7 @@ main h1 {
 }
 @media screen and (max-width: 480px) {
     main h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
 }
 main h3 {
