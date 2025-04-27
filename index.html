@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="Explore Bhavani Global Industries for premium wholesale rice solutions. Quality you can trust, prices you'll love!">
+    <meta name="keywords" content="Bhavani Global Industries, wholesale rice, organic rice, best rice supplier">
+    <meta name="author" content="Bhavani Global Industries">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Bhavani Global Industries">
+    <meta property="og:description" content="We offer high-quality organic and premium rice varieties. Contact us for the best deals.">
+    <meta property="og:image" content="https://bhavaniglobalindustries.com/assets/LOG.png">
+    <meta property="og:url" content="https://bhavaniglobalindustries.com">
+    <meta property="og:type" content="business.business">
+
+
+    <!-- Settings -->
+    <meta for="charset" charset="utf-8">
+    <meta for="referrer" name="referrer" content="origin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://bhavaniglobalindustries.com/assets/LOG.png">
+    <link rel="shortcut icon" href="https://bhavaniglobalindustries.com/assets/LOG.png">
+    <meta name="theme-color" content="#ffffff"> <!-- Browser theme color -->
+
+    <!-- Robots  -->
+    <meta name="robots" content="all">
+
+    <!-- Language  -->
+    <meta property="og:locale" content="en">
+    <meta http-equiv="content-language" content="en">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/core.css">
+
+    <!-- Schema -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="https://bhavaniglobalindustries.com/assets/LOG.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/visitor.css">
+    <link rel="stylesheet" type="text/css" href="./css/Swiper.css">
+    <script src="./js/Swiper.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- Scripts -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Bhavani Global Industries",
+            "url": "https://bhavaniglobalindustries.com",
+            "logo": "https://bhavaniglobalindustries.com/assets/LOG.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 7972780876",
+                "contactType": "customer service",
+                "email": "bhavaniglobalindustries@gmail.com"
+            },
+            "sameAs": [
+                "https://www.facebook.com/yourpage",
+                "https://www.instagram.com/bhavaniglobalindustries",
+                "https://www.linkedin.com/company/yourpage"
+            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://bhavaniglobalindustries.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "About Us",
+                    "item": "https://bhavaniglobalindustries.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Contact Us",
+                    "item": "https://bhavaniglobalindustries.com"
+                }
+            ]
+        }
+        </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .fade-in-left {
+            opacity: 0;
+            transform: translateX(-80px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            transform: translateX(80px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .zoom-in {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .rotate-in {
+            opacity: 0;
+            transform: rotate(-20deg);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .visible {
+            opacity: 1;
+            transform: translateX(0) scale(1) rotate(0);
+        }
+
+        .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image {
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container:hover .image {
+      transform: scale(1.5); /* Enlarges the image */
+    }
+
+    .links {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .image-container:active .links {
+      display: block; /* Shows the links when image is clicked */
+    }
+
+    .links a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 5px;
+    }
+
+    .links a:hover {
+      background-color: #444;
+    }
+
+    #menu a {
+    color: #274c5b;
+    font-size: 23px;
+    text-decoration: none; /* Removes underline */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+#menu a:hover {
+    color: #274c5b; /* Keeps the color the same on hover */
+    transform: scale(1.05); /* Slightly increases the size on hover without shifting layout */
+}
+
+    </style>
+    
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1215.0" data-gr-ext-installed="">
+
+    <div id="dh-website">
+        <main component="2">
+            <div class="t59 dh-body">
+                <div class="t225">
+                    <section class="t216">
+                        <container class="t217">
+                            <div class="t218">
+                                
+                                <a href="./index.html">
+                                    <img src="./assets/LOG.png"
+                                        loading="lazy" alt="" class="t221"></a>
+                                        <a href="./index.html"><h1 class="company_name">Bhavani Global Industries</h1></a>
+                                <div id="menu" class="t220">
+
+                                    <a href="index.html">Home</a>
+
+                                    <a href="View.html" class="t111">Products</a>
+
+                                   <a href="#contact-us" class="t263">Contact</a>
+
+                                    <!-- <a href="login-signup.html" class="t66 button-tertiar">Sign Up</a> -->
+
+                                </div>
+
+                                <div class="t223 142 142">
+                                    <div class="t224"></div>
+
+
+                                    <div class="t224"></div>
+                                    <div class="t224"></div>
+                                </div>
+                            </div>
+                        </container>
+                    </section>
+                </div>
+                <section class="t60 fade-in"
+                    style="opacity: 0; animation: 1000ms ease 0ms 1 normal forwards running fadeIn;">
+                    <container class="t61">
+                        <div class="t62 fade-in">
+                            <span class="t63 label-text plugin_simpleScroll-is-animated"
+                                style="opacity: 0; animation: 600ms ease 200ms 1 normal forwards running fadeInUp;">100%
+                                Natural Rice</span>
+                            <h1 class="big"
+                                style="opacity: 0; animation: 600ms ease 400ms 1 normal forwards running fadeInUp;">
+                                Choose the best Quality for your Family</h1>
+
+                            <div class="t65 plugin_simpleScroll-is-animated"
+                                style="opacity: 0; animation: 600ms ease 500ms 1 normal forwards running fadeInUp;">
+                                <a href="#explore" class="t66 button-tertiary">Explore Now</a>
+                            </div>
+                        </div>
+                    </container>
+                </section>
+
+                <section class="t67">
+                    <container class="t68">
+                        <div id="explore" class="t69">
+                            <div class="t70 fade-in-left">
+                                <span class="t71">Natural!!</span>
+                                <h3 class="t72">Get 100% Pure Rice</h3>
+                            </div>
+                
+                            <div class="t73 fade-in-right">
+                                <span class="t74">Quality!!</span>
+                                <h3 class="t75">Get Best Quality Rice</h3>
+                            </div>
+                        </div>
+                    </container>
+                </section>
+                
+
+                 <section class="t76">
+                    
+                    <container class="t77">
+                        <div id="about-us">
+                            <div class="t78">
+                                <div class="t79 fade-in-left">
+                                    <img src="./assets/Farm 2.jpg"
+                                        loading="lazy" alt="" class="t80 plugin_simpleScroll-is-animated"
+                                        style="opacity: 0; animation: 600ms ease 200ms 1 normal forwards running fadeInUp;">
+                                    <br><br><br><img src="./assets/Farm 1.jpg" 
+                                        loading="lazy" alt="" class="t80 fade"
+                                        style="opacity: 0; animation: 600ms ease 200ms 1 normal forwards running fadeInUp;">
+                                </div>
+                                <div class="t81"
+                                    style="opacity: 0; animation: 600ms ease 0ms 1 normal forwards running fadeInUp;">
+    
+                                    <span class="t82 label-text fade-in">About Us</span>
+    
+                                    <h2 class="t83 fade-in-right" style="text-align: justify;">We Believe in Purity of our Product</h2>
+                                    <p class="t84 fade-in-right" style="text-align: justify;"><strong>Bhavani Global Industries</strong> is a leading wholesaler of premium-quality
+                                        rice. We are committed to sourcing the finest rice varieties directly from trusted
+                                        farms and delivering them to all over places. Our focus is on providing top-notch products
+                                        that meet the best standards while supporting sustainable agricultural practices. With a
+                                        reputation for excellence, we ensure the best prices, the finest quality, and timely
+                                        deliveries to our customers.</p>
+                                    <br>
+                                    <div class="t226 fade-in-right">
+                                        <div class="t85">
+                                            <div class="t86 fade-in">
+                                                <img src="./assets/b5ff3abccdc52f59fe951043438e790f_8648.svg"
+                                                    loading="lazy" alt="" class="t87">
+                                            </div>
+    
+                                            <div class="t88 fade-in"><span class="t89">Organic Foods Only</span>
+    
+                                                <p class="t90">We only serve organic and pure Rice</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="t85 fade-in-right">
+                                            <div class="t86"><img
+                                                    src="./assets/84d2281f35c2cf75a0840647a205c139_4012.svg"
+                                                    loading="lazy" alt="" class="t87"></div>
+                                            <div class="t88 fade-in">
+    
+                                                <span class="t89">Quality Standards</span>
+                                                <p class="t90">Our rice meets the finest quality and best price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                            </div>
+                        </div>
+
+                    </container>
+                    
+                </section>
+            </div>
+
+                <section class="t108 fade-in">
+                    <container class="t109">
+                        <div class="t110 plugin_simpleScroll-is-animated"
+                            style="opacity: 0; animation: 600ms ease 0ms 1 normal forwards running fadeInUp;">
+                                <div id="all-product" class="t111">
+                                    <span class="t112 label-text fade-in">Offer</span>
+
+                                    <h2 class="t113 fade-in">We Offer Organic Rice For You</h2>
+                                </div>
+                                <div class="t114 fade-in"><a href="./View.html" class="t115 button-tertiary">View All Product</a></div>
+                                </div>
+                            <div class="t116 fade-in"
+                                style="opacity: 0; animation: 600ms ease 0ms 1 normal forwards running fadeInUp;">
+                                <a class="t117 fade-in"><span class="t118">Rice</span>
+                                    <div class="t121 fade-in">
+                                        <img src="./assets/indrayani.png"
+                                            loading="lazy" alt="" class="t119">
+                                    </div>
+                                    <div class="t265"><span class="t120">Indrayani Rice</span>
+                                        <div class="t264"></div>
+                                        <div class="t122">
+                                            <div class="t123">
+                                                <span class="t124"> Rs.60.00</span> 
+                                                <span class="t125"> Rs.58.00</span> 
+                                            </div>
+
+                                            <div class="t126">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a class="t117 fade-in"><span class="t118">Rice</span>
+                                    <div class="t121 fade-in">
+                                        <img src="./assets/mehak.png"
+                                            loading="lazy" alt="" class="t119">
+                                    </div>
+                                    <div class="t265">
+                                        <span class="t120">Mehak Basmati</span>
+                                        <div class="t264"></div>
+                                        <div class="t122">
+                                            <div class="t123">
+                                                <span class="t124"> Rs.65.00</span>
+                                                <span class="t125"> Rs.63.00</span>
+                                            </div>
+                                            <div class="t126">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                                <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                    loading="lazy" alt="" class="t127">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a class="t117 fade-in"><span class="t118">Rice</span>
+                                    <div class="t121 fade-in">
+                                        <img src="./assets/kismet.jpg"
+                                            loading="lazy" alt="" class="t119">
+                                    </div>
+                                    <div class="t265"><span class="t120">Kismet Basmati</span>
+                                        <div class="t264"></div>
+                                        <div class="t122">
+                                            <div class="t123">
+                                                <span class="t124"> Rs.90.00</span>
+                                                <span class="t125"> Rs.85.00</span>
+                                            </div>
+                                            <div class="t126">
+
+                                            <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                loading="lazy" alt="" class="t127">
+                                            <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                loading="lazy" alt="" class="t127">
+                                            <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                loading="lazy" alt="" class="t127">
+                                            <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                loading="lazy" alt="" class="t127">
+                                            <img src="./assets/b7c67c9571b12d5082637843059fb0ca_775.svg"
+                                                loading="lazy" alt="" class="t127">
+                                            </div>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+                    </container>
+                </section>
+
+                <div class="t251 fade-in">
+                    <div class="t253 fade-in-left">
+                        <img src="./assets/eco 4.png"
+                            loading="lazy" alt="" class="t254 plugin_simpleScroll-is-animated"
+                            style="opacity: 0; animation: 600ms ease 0ms 1 normal forwards running fadeInLeft;">
+                    </div>
+                    <container class="t252">
+                        <div class="t255">
+                            <div class="t256 plugin_simpleScroll-is-animated"
+                                style="opacity: 0; animation: 600ms ease 0ms 1 normal forwards running fadeInRight;">
+
+
+
+                                <span class="t257 label-text fade-in-right">Eco Friendly</span>
+                            <br>
+                                <p><h3 class="t258 fade-in-right">Bhavani Global Industries is the Friendly Organic Store</h3></p>
+                                <div class="t262">
+                                    <div class="t259 fade-in-right">
+                                        <h6 class="t260">Sustainable Farming Practices</h6>
+                                        <p class="t261" style="text-align: justify;">Partnering with farmers who use natural fertilizers, avoid
+                                            harmful pesticides, and implement crop rotation or organic farming
+                                            techniques to preserve soil health and biodiversity. This helps reduce the
+                                            environmental impact of rice cultivation.
+                                        </p>
+                                    </div>
+
+                                    <div class="t259 fade-in-right">
+                                        <h6 class="t260">Water Conservation</h6>
+                                        <p class="t261" style="text-align: justify;">Since rice cultivation is water-intensive, adopting water-saving
+                                            technologies such as drip irrigation or reusing water from previous harvests
+                                            can significantly reduce water consumption, a key concern in many regions
+                                            where water resources are limited.
+                                        </p>
+                                    </div>
+                                    <div class="t259 fade-in-right">
+                                        <h6 class="t260">Eco-friendly Packaging</h6>
+                                        <p class="t261" style="text-align: justify;">Using biodegradable or recyclable packaging materials for rice
+                                            products can minimize plastic waste. Transitioning to paper or compostable
+                                            alternatives reduces the environmental footprint of the packaging process.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </container>
+                </div>
+
+                <div id="contact-us">
+                    <div class="t263">
+                        <section class="t231">
+                            <container class="t232">
+                                <div class="t233 fade-in-left">
+                                    <div class="t234">
+                                        <h5 class="t235 fade-in-left">Contact Us</h5>
+                                        <div class="t266">
+                                            <div class="t236">
+                                                <span class="t237">Email</span>
+                                                <a href="mailto:bhavaniglobalindustries@gmail.com?subject=Rice Order Inquiry&body=Hello, I would like to place an order. Please provide pricing and order details. Looking forward to your response." class="t238">
+                                                    bhavaniglobalindustries@gmail.com
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="t236">
+                                                <span class="t237">Phone</span>
+                                                <a link-type="phone" class="t238">7972780876</a>
+                                            </div>
+                                            
+                                            <div class="t236">
+                                                <span class="t237">Address</span>
+                                                <a class="t238">Jay Malhar Nagar, Near Ashok School, Sinnar, Nashik 422113</a>
+                                                <br><br>
+                                                <div class="t91">
+                                                    <img src="./css/QR.jpg">
+                                                </div>
+                                            </div>                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="t239 fade-in">
+                                        <a href="./index.html">
+                                            <div class="logo_a">
+                                                <img src="./assets/LOG.png"
+                                                loading="lazy" alt="" class="t246 t221">
+                                            </div>  
+                                        </a>
+                                        <p class="t240 fade-in">Bhavani Global Industries is a leading wholesaler of premium-quality
+                                            rice. We are committed to sourcing the finest rice varieties directly from
+                                            trusted farms and delivering them to all over places. Our focus is on providing top-notch
+                                            products that meets the best quality while supporting the sustainable agricultural
+                                            practices. With a reputation for excellence, we ensure the best prices,
+                                            finest quality, and timely deliveries to our customers.</p>
+                                        <div class="t241">
+                                            <div class="t242"><a class="t243">
+                                                <img src="./assets/4c1384d8364805ff4e536be3108fbe19_2371.svg"
+                                                    loading="lazy" alt="" class="t244"></a><a class="t243">
+                                                <img src="./assets/e2e8e9c5510cf526a923da270202d24a_606.svg"
+                                                    loading="lazy" alt="" class="t244"></a><a class="t243">
+                                                <img src="./assets/993cf5da4f8ec91c23f22d22c6f85a57_1200.svg"
+                                                    loading="lazy" alt="" class="t244"></a><a class="t243">
+                                                <img src="./assets/e3aba370ea5237c2f71b96f06da67aa6_1348.svg"
+                                                    loading="lazy" alt="" class="t244"></a></div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="t247 zoom-in">
+                                        <h5 class="t248 fade-in-right">Google Map</h5>
+                                            <a href="https://maps.app.goo.gl/eC9ZzKFutAYRaQAm9">
+                                                <div class="image-container fade-in-right">
+                                                    <img src="./assets/map.png" alt="Image" class="image">
+                                                </div>
+                                            </a>
+                                    </div>
+                                    
+                                </div>
+                            </container>
+                        </section>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <div id="dh-modal">
+        <items for="md.modal" field="html"></items>
+    </div>
+    <div id="dh-plugins"></div>
+
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let animatedElements = document.querySelectorAll(".fade-in, .fade-in-left, .fade-in-right, .zoom-in, .rotate-in");
+
+            function animateOnScroll() {
+                animatedElements.forEach(el => {
+                    let rect = el.getBoundingClientRect();
+                    if (rect.top < window.innerHeight * 0.72) {
+                        el.classList.add("visible");
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", animateOnScroll);
+            animateOnScroll();
+        });
+    </script>
+</body>
+</html>
